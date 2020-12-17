@@ -1,0 +1,105 @@
+//font
+@font-face {
+  font-family: 'MinionPro';
+  src: url('/assets/fonts/MinionPro-Regular.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MinionProBold';
+  src: url('/assets/fonts/MinionPro-Bold.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MinionProMedium';
+  src: url('/assets/fonts/MinionPro-Bold-MediumIt.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MinionProBoldIt';
+  src: url('/assets/fonts/MinionPro-BoldIt.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MinionProIt';
+  src: url('/assets/fonts/MinionPro-It.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MinionProSemiBold';
+  src: url('/assets/fonts/MinionPro-Semibold.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MinionProSemiBoldIt';
+  src: url('/assets/fonts/MinionPro-SemiboldIt.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.btn, .btn-large {
+  margin-top: 30px;
+  background-color: #3B436A;
+}
+
+.btn:hover, .btn-large:hover {
+  background-color: #22263e !important;
+}
+
+
+.loader {
+  position: absolute;
+  left: 45%;
+  top: 40%;
+  z-index: 1;
+  border: 12px solid #f3f3f3;
+  border-top: 12px solid #3B436A;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  animation: spin 2s linear infinite;
+  -moz-animation: spin 2s linear infinite;
+  -webkit-animation: spin 2s linear infinite;
+}
+
+@-moz-keyframes spin {
+  from {
+    -moz-transform: rotate(0deg);
+  }
+  to {
+    -moz-transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+p {
+  font-family: 'MinionPro';
+}

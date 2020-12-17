@@ -1,0 +1,146 @@
+p {
+  font-family: MinionProBold;
+  text-align: left;
+  text-transform: uppercase;
+  color: #3B436A !important;
+  font-size: 1.3em;
+}
+
+a {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+#servicios {
+  display: flex;
+  align-items: center;
+}
+
+
+#navbar {
+  height: 60px;
+  position: absolute;
+  top: 40px;
+  background-color: transparent;
+  width: 100%;
+  z-index: 99;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+}
+
+#ing {
+  display: none;
+}
+
+.navitem {
+  margin-left: auto;
+}
+
+.mydropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.mydropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #3B436A;
+  min-width: 596px;
+  box-shadow: 0px 8px 16px 0px rgba(59, 67, 106, 0.2);
+  z-index: 1;
+  right: -294px;
+
+  p {
+    color: #fff !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    font-size: 12px;
+    font-family: 'MinionProBold';
+    text-transform: none;
+  }
+
+  a {
+    padding: 0 !important;
+    margin: 0 0 10px 0 !important
+  }
+}
+
+.mydropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.mydropdown-content a:hover {
+  p {
+    color: #000 !important;
+  }
+}
+
+.mydropdown:hover .mydropdown-content {
+  display: block;
+}
+
+.flechaDown {
+  width: 37px;
+  height: 31px;
+}
+
+a:hover {
+  p {
+    color: #000 !important;
+  }
+}
+
+#mobile {
+  display: none;
+}
+
+.side-nav li > a {
+  color: #3B436A !important;
+  font-family: 'MinionProBold' !important;
+  font-size: 18px !important;
+}
+
+.myul {
+  background-color: #3B436A !important;
+}
+
+.dropdown-content li {
+  color: #fff !important;
+  font-family: 'MinionProBold';
+  margin-left: 20px;
+
+  a {
+    color: #fff !important;
+    font-size: 12px !important;
+  }
+}
+
+.arrowMob {
+  width: 35px;
+  height: 34px;
+  float: right;
+  margin-top: 5px;
+}
+
+@media screen and (max-width: 992px) {
+  #navbar {
+    display: none;
+  }
+
+  #mobile {
+    display: block;
+
+  }
+  a {
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 15px;
+    font-family: 'MinionProBold';
+  }
+}

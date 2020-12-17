@@ -1,0 +1,56 @@
+#footer {
+  padding: 20px;
+  background-color: #3B436A;
+
+
+  .award {
+    width: 175px;
+    height: 100px;
+    margin-right: 20px;
+  }
+
+  p {
+    color: #fff;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+
+  img {
+    cursor: pointer;
+    width: 80px;
+    position: relative;
+    right: 25px;
+    padding-top: 10px;
+    float: right;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  p {
+    text-align: center;
+  }
+  #footer {
+    text-align: center;
+    height: 100vh;
+
+    .award {
+      float: left;
+      margin-left: 40px;
+    }
+
+    img {
+      width: 70px;
+      position: relative;
+      right: -25px;
+      top: -25px;
+    }
+
+    .pMob {
+      margin-left: 12px !important;
+    }
+
+    .row {
+      margin-bottom: 0 !important;
+    }
+  }
+}

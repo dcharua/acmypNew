@@ -1,0 +1,26 @@
+/* You can add global styles to this file, and also import other style files */
+#lenbar {
+  position: absolute;
+  font-family: MinionProBold;
+  font-size: 1.3em;
+  top: 40px;
+  left: 20px;
+
+  a {
+    color: #3B436A;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  #lenbar {
+    top: 20px;
+    right: 20px;
+    left: auto;
+
+    a {
+      color: #FFFFFF;
+    }
+  }
+
+}
+

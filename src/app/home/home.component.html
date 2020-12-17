@@ -1,0 +1,124 @@
+<div id="background">
+  <div id="lenbar"><a [routerLink]="['/home']">English</a></div>
+  <div class="logo"><img id="logohome" src="/assets/logos/LOGO.png" alt="ACMyP"></div>
+  <a href="#about" class="continuar">
+    <p>CONTINUAR</p>
+    <img class="flechaDown" src="/assets/icons/FlechaAbajo.png" alt="ACMyP">
+  </a>
+</div>
+
+<div id="about">
+  <h5 style="padding-top:70px;"> Arias, Charua, Macías & Prum, es una firma de abogados cuyos miembros</h5>
+  <h5>ofrecen un servicio legal de alta calidad, cuyo enfoque es brindar una</h5>
+  <h5>atención personalizada y eficiente a cada uno de sus clientes.</h5>
+  <div style="margin-top:70px;">
+    <p>Nuestra Firma está compuesta por abogados con una larga reputación arraigada en la
+      prestación de servicios legales de alto nivel, ofreciendo atención ética y profesional a
+      nuestros clientes. Nuestra Firma se encuentra en constante capacitación para brindar a
+      nuestros clientes la más alta asistencia legal, lo que permite que nuestros abogados se
+      mantengan a la vanguardia en cada una de las áreas de prácticas que presta la Firma.</p>
+
+    <p>La atención personalizada a nuestros clientes se brinda a través del conocimiento de
+      diferentes industrias y sectores, previniendo contingencias y manteniendo una
+      comunicación abierta que nos permite informar cambios legislativos que podrían afectar
+      los intereses de nuestros clientes</p>
+    <p style="padding-bottom:70px;">Combinamos tradición e innovación en la prestación de servicios profesionales,
+      de la cual
+      deriva nuestro principio fundamental de reconocimiento como asesores permanentes de
+      nuestros clientes, lo que les permite obtener beneficios reales y directos.</p>
+  </div>
+
+  <!-- La portada del cover (ej. /assets/images/covers/flirt.jpg) deben de ser de 900 x 900 px -->
+  <div id="projects">
+    <h1>PRINCIPALES ÁREAS DE PRÁCTICA</h1>
+    <p>Nuestro grupo de profesionales representa, defiende y asesora, bajo los más altos estándares éticos, de
+      calidad
+      y profesionalismo a clientes en diversas áreas de la industria en numerosos temas legales. </p>
+    <div class="container">
+      <div class="row" id="projects-wrapper">
+        <div class="col s6 m4 box">
+          <a [routerLink]="['/tecnologia']">
+            <img class="box-image" src="/assets/images/tecnologia.jpg">
+            <div class="box-wrap valign-wrapper">
+              <div class="valign text">
+                <p>Tecnología</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col s6 m4 box">
+          <a [routerLink]="['/propiedad']" title="Valiara">
+            <img class="box-image" src="/assets/images/propiedad.jpg">
+            <div class="box-wrap valign-wrapper">
+              <div class="valign text">
+                <p>Propiedad Intelectual y Entretenimiento</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col s6 m4 box">
+          <a [routerLink]="['/civil']">
+            <img class="box-image" src="/assets/images/civil.jpg">
+            <div class="box-wrap valign-wrapper">
+              <div class="valign text">
+                <p>Civil y Mercantil</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col s6 m4 box">
+          <a [routerLink]="['/telecomunicaciones']">
+            <img class="box-image" src="/assets/images/tele.jpeg">
+            <div class="box-wrap valign-wrapper">
+              <div class="valign text">
+                <p>Telecomunicaciones</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col s6 m4 box">
+          <a [routerLink]="['/farmaceutico']">
+            <img class="box-image" src="/assets/images/farma.jpg">
+            <div class="box-wrap valign-wrapper">
+              <div class="valign text">
+                <p>Farmacéutico</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col s6 m4 box">
+          <a [routerLink]="['/fusion']">
+            <img class="box-image" src="/assets/images/fusion.jpg">
+            <div class="box-wrap valign-wrapper">
+              <div class="valign text">
+                <p>Fusiones y Adquisiciones</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="abogadosHome">
+    <div style="width: 30%;margin-left: 35%;">
+      <h3>ABOGADOS</h3>
+      <a [routerLink]="['/arias']" class="abogado">
+        <h2 style="padding-top:70px;">Oscar</h2>
+        <p>Arias Corona</p>
+      </a>
+      <a [routerLink]="['/charua']" class="abogado">
+        <h2>Elias</h2>
+        <p>Charua García</p>
+      </a>
+      <a [routerLink]="['/macias']" class="abogado">
+        <h2>David</h2>
+        <p>Macías León</p>
+      </a>
+      <a [routerLink]="['/prum']" class="abogado">
+        <h2>Daniel</h2>
+        <p style="padding-bottom:70px;">Prum Charua</p>
+      </a>
+    </div>
+  </div>
+</div>
